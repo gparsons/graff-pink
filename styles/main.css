@@ -1,0 +1,317 @@
+body {
+  
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: #404040;
+  font-weight: normal;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+#top-bar {
+  width: 100%;
+  background: rgba(255,255,255,0.8);
+}
+
+nav {
+  height: 27px;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  height: auto;
+}
+
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: #737373;
+}
+
+nav ul li a.last {
+  background: #de6d6e;
+  color: #fff;
+  border-radius: 3px;
+}
+
+nav ul li a:hover {
+  background: #de6d6e;
+  color: #fff;
+  border-radius: 3px;
+}
+
+header {
+  background: url(../images/background.png) top center fixed;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 82px;
+}
+
+h1 {
+  margin-top: 373px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 69px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+
+#call-to-action {
+  text-align: center;
+  margin-top: 66px;
+}
+
+#call-to-action h2 {
+  font-size: 35px;
+}
+
+#call-to-action p {
+  font-size: 17px;
+}
+
+#circles {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+#circles a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#circles i:hover {
+  position: relative;
+  top: -10px;
+}
+
+#circles i {
+  font-size: 70px;
+}
+
+#circles p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+#tickets,
+#camera,
+#beer,
+#devices {
+  display: inline-block;
+  margin-right: 75px;
+  width: 179px;
+  height: 129px;
+  border-radius: 100px;
+  padding-top: 50px;
+}
+
+#tickets {
+  background: #4eb9f4;
+}
+
+#camera {
+  background: #6fc125;
+}
+
+#beer {
+  background: #ff5649;
+}
+
+#devices {
+  margin-right: 0;
+  background: #e48f23;
+}
+
+hr {
+  margin: 0;
+}
+
+#feed {
+  margin-top: 44px; 
+}
+
+article {
+  margin-bottom: 79px;
+}
+
+article img {
+  float: left;
+  margin-right: 26px;
+}
+
+
+
+
+
+
+footer {
+  background-image: url(../images/footer-bg.png);
+  color: #696b6a;
+}
+
+footer a {
+  color: #696b6a;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#sub-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sub-menu ul li {
+  float: left;
+}
+
+#sub-menu ul li ul li {
+  float: none;
+  margin-right: 55px;
+  margin-bottom: 10px;
+}
+
+.sub {
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+
+
+
+#social a {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.facebook {
+  display: inline-block;
+  background-color: #696b6a;
+  color: #252825; 
+  font-size: 32px;
+  height: 52px;
+  width: 52px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.facebook i {
+  margin-top: 11px;
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+
+.twitter {
+  display: inline-block;
+  background-color: #696b6a;
+  color: #252825; 
+  font-size: 32px;
+  height: 52px;
+  width: 52px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.twitter i {
+  margin-top: 12px;
+}
+
+.twitter:hover {
+  background-color: #00ACED;
+  color: #fff;
+}
+
+.dribbble {
+  display: inline-block;
+  background-color: #696b6a;
+  color: #252825; 
+  font-size: 32px;
+  height: 52px;
+  width: 52px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.dribbble i {
+  margin-top: 12px;
+}
+
+.dribbble:hover {
+  background-color: #ea4c89;
+  color: #fff;
+}
+
+.google {
+  display: inline-block;
+  background-color: #696b6a;
+  color: #252825; 
+  font-size: 32px;
+  height: 52px;
+  width: 52px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.google i {
+  margin-top: 12px;
+}
+
+.google:hover {
+  background-color: #CC3732;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
